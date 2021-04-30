@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UTS_SyifaAmanatulMaola311810380</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnMap">Lihat Peta</string>
+    <string name="btnWeb">Website</string>
+    <string name="btnEmail">Kirim Email</string>
+    <string name="btnCall">Call Center</string>
+</resources>
