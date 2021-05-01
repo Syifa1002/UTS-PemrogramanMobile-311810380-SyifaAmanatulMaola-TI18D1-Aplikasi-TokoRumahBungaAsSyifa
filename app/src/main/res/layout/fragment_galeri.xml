@@ -1,17 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Galeri">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageView
+        android:id="@+id/imageView9"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="GALERY"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:gravity="center"
-        />
-</FrameLayout>
+        android:layout_height="332dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="267dp"
+        android:src="@drawable/q" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/b" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/e" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/cc" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/r" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/aa" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/bb" />
+
+
+</RelativeLayout>

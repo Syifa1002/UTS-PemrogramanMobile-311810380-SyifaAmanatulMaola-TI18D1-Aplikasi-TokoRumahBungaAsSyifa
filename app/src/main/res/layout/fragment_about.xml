@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".About">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="313dp"
+        android:src="@drawable/bng" />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="ABOUT"
-        android:textSize="30sp"
-        android:textAlignment="center"
+        android:layout_height="256dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="76dp"
         android:gravity="center"
-        />
-
-</FrameLayout>
+        android:text="Hallo Anthophile,
+                                                    Disini Toko Rumah Bunga As Syifa menghadirkan aplikasi penjualan untuk memudahkan kalian dalam order bunga dikami. Aplikasi ini dirancang oleh Syifa Amanatul maola
+                                                    sebagai pemilik sekaligus Developer
+                                                    di Toko Rumah Bunga As Syifa.
+                                                    So, Happy Order Guys!!"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</RelativeLayout>
